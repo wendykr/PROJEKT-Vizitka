@@ -14,3 +14,80 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
+}
+
+.vizitka {
+    width: 550px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 10px #3d444b;
+}
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+}
+
+.foto-profil {
+    width: 150px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    box-shadow: 2px 2px 7px #000000;
+}
+
+.button {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.button a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+/* .button a {
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+} */
+
+.button .twitter a {
+    background-color: #1da1f2;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    /* margin-top: 30px; */
+}
+
+.button .twitter a:hover, a:focus, a:active {
+    background-color: #0b7bc1;
+}
+
+.button .facebook a {
+    background-color: #3b5998;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.button .facebook a:hover, a:focus, a:active {
+    background-color: #2b406e;
+}
