@@ -33,6 +33,8 @@ body {
 h1 {
     color: #d63031;
     font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .foto-profil {
